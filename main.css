@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#headmenu {
+    background-color: rgb(66, 74, 83);
+    /*como a tag header também é utilizado em outras seções, utlizamos desse maneira para especificar que
+    se trata do header "filho direto body"
+    poderiamos utilizar tbm um ID no header ex:display: 
+    #headmenu {
+        background-color: rgb(66, 74, 83);
+    };*/
+    padding: 16px 0;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a {
+    color: white;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.template {
+    width: 1366px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.container {
+    /*width: 1366px;*/
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 410px;
+    height: 270px;
+}
+
+.articles article {
+    width: 30%;
+    /*30% por que é 3 imagens por linha (100/3) .. os 10% que sobram são compensados no justify-content: space-between;*/
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: rgb(27, 123, 27);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#sports .articles article a:hover {
+    color: lightgreen;
+}
+
+#economy {
+    background-color: lightyellow;
+}
+
+#economy .articles article a {
+    background-color: rgb(209, 132, 0);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#economy .articles article a:hover {
+    color: rgb(249, 223, 177);
+}
+
+#entertainment {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+#entertainment .articles article a {
+    background-color: rgb(255, 81, 81);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#entertainment .articles article a:hover {
+    color: rgb(255, 171, 171);
+}
+
+#technology {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+#technology .articles article a {
+    background-color: rgb(81, 81, 255);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#technology .articles article a:hover {
+    color: rgb(171, 171, 255);
+}
