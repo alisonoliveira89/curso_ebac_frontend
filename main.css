@@ -6,14 +6,14 @@
 
 #headmenu {
     background-color: rgb(66, 74, 83);
-    /*como a tag header também é utilizado em outras seções, utlizamos desse maneira para especificar que
-    se trata do header "filho direto body"
-    poderiamos utilizar tbm um ID no header ex:display: 
-    #headmenu {
-        background-color: rgb(66, 74, 83);
-    };*/
     padding: 16px 0;
     color: white;
+    /*outra opção: body>header (filho direto body)
+    body>header {
+        background-color: rgb(66, 74, 83);  
+        padding: 16px 0;
+        color: white;     
+    }*/
 }
 
 header .container {
