@@ -33,7 +33,7 @@ form.addEventListener("submit", function(e) {
     */
 
     //Condição ternário
-    if (number_b.value > number_a.value ? true : false) {
+    if (parseInt(number_b.value, 0) > parseInt(number_a.value, 0) ? true : false) {
         formSucessMessage.innerHTML = sucessMsg;
         formSucessMessage.style.display = 'block';
     } else {
