@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin-top: 10%;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+form {
+    margin: 32px 0;
+    text-align: center;
+}
+
+input,
+button {
+    padding: 12px;
+    font-size: 24px;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.riscar {
+    text-decoration: line-through 3px;
+}
