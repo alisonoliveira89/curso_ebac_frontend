@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #3b42a2;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #3b42a2;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover,
+h1 {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #b1b5eb;
+}
+
+.section-title {
+    font-family: 'Lobster', sans-serif;
+}
+
+.text-resort {
+    color: #3b42a2;
+}
+
+#sobre,
+#estrutura {
+    background-color: #e7e9ff;
+}
+
+.border-resort {
+    border-bottom: 2px solid #3b42a2;
+}
+
+.nav-estrutura .nav-link.active,
+#fale-conosco button {
+    background-color: #3b42a2;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}

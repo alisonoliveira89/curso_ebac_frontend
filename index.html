@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS Resort</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="lib/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="m-0 section-title">AOS Resort</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end mt-2 mt-md-0" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-5" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-5" href="#acomodacoes">
+                            <i class="bi bi-shop me-1"></i>Acomodações</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-5" href="#estrutura">
+                            <i class="bi bi-umbrella me-1"></i>Estrutura & Lazer</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-5" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/sobre/slide1.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/sobre/slide2.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/sobre/slide3.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/sobre/resort.jpg" class="d-block w-100 h-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre o <span class="text-resort">resort</span></h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, perferendis rem? Nesciunt sunt repellendus repudiandae, magnam, tempore a perspiciatis deserunt doloribus aspernatur rerum sed. Dolor illum nemo officiis odit quos.</p>
+                            <h3 class="section-title">Principais <span class="text-resort">atrações</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus totam iure nesciunt impedit officiis laboriosam, esse sit repudiandae eos in numquam a quod dicta! Odit culpa fuga eaque totam exercitationem?</p>
+                            <ul>
+                                <li>Tópico 1</li>
+                                <li>Tópico 2</li>
+                                <li>Tópico 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="acomodacoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row pb-5">
+                    <h2 class="text-center section-title">Nossas <span class="text-resort">Acomodações</span></h2>
+                    <div class="border-resort"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/acomodacoes/luxo.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-resort section-title">
+                            <i class="bi bi-rainbow me-2"></i>Quarto Luxo</h3>
+                        <p class="mt-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ullam numquam, vitae fugiat nihil expedita eos labore, aut ut rerum optio accusantium odit corrupti nulla, distinctio maxime illo recusandae sed?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/acomodacoes/master.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-resort section-title">
+                            <i class="bi bi-sun me-2"></i>Quarto Master</h3>
+                        <p class="mt-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ullam numquam, vitae fugiat nihil expedita eos labore, aut ut rerum optio accusantium odit corrupti nulla, distinctio maxime illo recusandae sed?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/acomodacoes/plus.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-resort section-title">
+                            <i class="bi bi-star me-2"></i>Quarto Plus</h3>
+                        <p class="mt-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ullam numquam, vitae fugiat nihil expedita eos labore, aut ut rerum optio accusantium odit corrupti nulla, distinctio maxime illo recusandae sed?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estrutura" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row pb-5">
+                    <h2 class="text-center section-title">Sugestões de <span class="text-resort">Estrutura & Lazer</span></h2>
+                    <div class="border-resort"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 pb-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-estrutura">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#parque-aquatico" class="fw-bold text-start nav-link text-resort active">Parque Aquático</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#esportes" class="fw-bold text-start nav-link text-resort">Esportes</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#restaurante" class="fw-bold text-start nav-link text-resort">Restaurante</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#salao-jogos" class="fw-bold text-start nav-link text-resort">Salão de jogos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#recreacao" class="fw-bold text-start nav-link text-resort">Recreação</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="parque-aquatico">
+                                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque1.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Tobo água</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque2.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Parque aquático</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque3.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Parque aquático</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque4.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Jangada</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque5.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Parque aquático</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque6.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Piscina</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque7.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Parque aquático</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque8.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Parque aquático</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/parque/parque9.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Infantil</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="esportes">
+                                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/esportes/esporte1.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Campo de futebol 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/esportes/esporte2.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Campo de futebol 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/esportes/esporte3.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Campo de futebol 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/esportes/esporte4.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/esportes/esporte5.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Basquete</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/esportes/esporte6.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Academia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/esportes/esporte7.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Tênis de praia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="restaurante">
+                                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/restaurante/restaurante1.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Restaurante 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/restaurante/restaurante2.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Restaurante 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/restaurante/restaurante3.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Restaurante 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/restaurante/restaurante4.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Restaurante 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/restaurante/restaurante5.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Restaurante 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="salao-jogos">
+                                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/salao-jogos/jogos1.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Salão de jogos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/salao-jogos/jogos2.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Pebolim</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/salao-jogos/jogos3.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Pinball</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/salao-jogos/jogos4.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Jogo de Dama</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/salao-jogos/jogos5.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Tênis de mesa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="recreacao">
+                                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/recreacao/recreacao1.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Recreação</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/recreacao/recreacao2.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Brinquedoteca</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/recreacao/recreacao3.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Parquinho</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/recreacao/recreacao4.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Cama elástica</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="d-block w-100" src="images/estrutura-lazer/recreacao/recreacao5.jpg" alt="">
+                                        <h5 class="text-resort fw-bold mt-2">Brincadeiras</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container pt-5 pb-2">
+            <div class="pb-3">
+                <div id="toastError" class="toast align-items-center text-bg-danger border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body">
+                            <!-- Existem campos incorretos. -->
+                        </div>
+                        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div id="toastSuccess" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body">
+                            <!-- Agradecemos o contato. -->
+                        </div>
+                        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+            <section id="fale-conosco">
+                <div class="row pb-5">
+                    <h2 class="text-center section-title">Entre em contato <span class="text-resort">conosco</span></h2>
+                    <div class="border-resort"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-resort">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-resort">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-resort">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-resort">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-resort">
+                                <i class="bi bi-hand-thumbs-up-fill"></i> Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-resort"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-resort"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-resort"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-resort">
+                                <i class="bi bi-cursor-fill"></i> Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Projeto nº 03, Bairro Bootstrap - Osasco - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+    </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
