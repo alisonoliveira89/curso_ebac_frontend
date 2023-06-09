@@ -1,3 +1,3 @@
 # curso_ebac_frontend
 
-Os projetos estão nas branchs, navegue a vontade.
+Os projetos estão nas branches, navegue a vontade.
